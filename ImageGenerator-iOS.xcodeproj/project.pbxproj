@@ -1,0 +1,368 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C015B7FE2BF9B12200ACB7E6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C015B7F22BF9B12200ACB7E6 /* ViewController.swift */; };
+		C015B7FF2BF9B12200ACB7E6 /* Proxima Nova Alt Bold-webfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C015B7F42BF9B12200ACB7E6 /* Proxima Nova Alt Bold-webfont.ttf */; };
+		C015B8002BF9B12200ACB7E6 /* Proxima Nova Alt Regular-webfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C015B7F52BF9B12200ACB7E6 /* Proxima Nova Alt Regular-webfont.ttf */; };
+		C015B8012BF9B12200ACB7E6 /* Proxima Nova Thin-webfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C015B7F62BF9B12200ACB7E6 /* Proxima Nova Thin-webfont.ttf */; };
+		C015B8022BF9B12200ACB7E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C015B7F72BF9B12200ACB7E6 /* Assets.xcassets */; };
+		C015B8032BF9B12200ACB7E6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C015B7F82BF9B12200ACB7E6 /* LaunchScreen.storyboard */; };
+		C015B8042BF9B12200ACB7E6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C015B7FA2BF9B12200ACB7E6 /* Main.storyboard */; };
+		C015B8052BF9B12200ACB7E6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C015B7FC2BF9B12200ACB7E6 /* AppDelegate.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		35C5EDE922749DE40036D6D6 /* ImageGenerator-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ImageGenerator-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C015B7F22BF9B12200ACB7E6 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C015B7F42BF9B12200ACB7E6 /* Proxima Nova Alt Bold-webfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Proxima Nova Alt Bold-webfont.ttf"; sourceTree = "<group>"; };
+		C015B7F52BF9B12200ACB7E6 /* Proxima Nova Alt Regular-webfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Proxima Nova Alt Regular-webfont.ttf"; sourceTree = "<group>"; };
+		C015B7F62BF9B12200ACB7E6 /* Proxima Nova Thin-webfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Proxima Nova Thin-webfont.ttf"; sourceTree = "<group>"; };
+		C015B7F72BF9B12200ACB7E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C015B7F92BF9B12200ACB7E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C015B7FB2BF9B12200ACB7E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C015B7FC2BF9B12200ACB7E6 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C015B7FD2BF9B12200ACB7E6 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		35C5EDE622749DE40036D6D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		35C5EDE022749DE40036D6D6 = {
+			isa = PBXGroup;
+			children = (
+				C015B7F12BF9B12200ACB7E6 /* ImageGenerator-iOS */,
+				35C5EDEA22749DE40036D6D6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		35C5EDEA22749DE40036D6D6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				35C5EDE922749DE40036D6D6 /* ImageGenerator-iOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C015B7F12BF9B12200ACB7E6 /* ImageGenerator-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				C015B7FC2BF9B12200ACB7E6 /* AppDelegate.swift */,
+				C015B7F22BF9B12200ACB7E6 /* ViewController.swift */,
+				C015B7FA2BF9B12200ACB7E6 /* Main.storyboard */,
+				C015B7F82BF9B12200ACB7E6 /* LaunchScreen.storyboard */,
+				C015B7F32BF9B12200ACB7E6 /* Resources */,
+				C015B7F72BF9B12200ACB7E6 /* Assets.xcassets */,
+				C015B7FD2BF9B12200ACB7E6 /* Info.plist */,
+			);
+			path = "ImageGenerator-iOS";
+			sourceTree = "<group>";
+		};
+		C015B7F32BF9B12200ACB7E6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C015B7F42BF9B12200ACB7E6 /* Proxima Nova Alt Bold-webfont.ttf */,
+				C015B7F52BF9B12200ACB7E6 /* Proxima Nova Alt Regular-webfont.ttf */,
+				C015B7F62BF9B12200ACB7E6 /* Proxima Nova Thin-webfont.ttf */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		35C5EDE822749DE40036D6D6 /* ImageGenerator-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 35C5EDFB22749DE50036D6D6 /* Build configuration list for PBXNativeTarget "ImageGenerator-iOS" */;
+			buildPhases = (
+				35C5EDE522749DE40036D6D6 /* Sources */,
+				35C5EDE622749DE40036D6D6 /* Frameworks */,
+				35C5EDE722749DE40036D6D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ImageGenerator-iOS";
+			productName = WordRolls;
+			productReference = 35C5EDE922749DE40036D6D6 /* ImageGenerator-iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		35C5EDE122749DE40036D6D6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1500;
+				ORGANIZATIONNAME = sudeep;
+				TargetAttributes = {
+					35C5EDE822749DE40036D6D6 = {
+						CreatedOnToolsVersion = 10.2;
+					};
+				};
+			};
+			buildConfigurationList = 35C5EDE422749DE40036D6D6 /* Build configuration list for PBXProject "ImageGenerator-iOS" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 35C5EDE022749DE40036D6D6;
+			productRefGroup = 35C5EDEA22749DE40036D6D6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				35C5EDE822749DE40036D6D6 /* ImageGenerator-iOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		35C5EDE722749DE40036D6D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C015B8012BF9B12200ACB7E6 /* Proxima Nova Thin-webfont.ttf in Resources */,
+				C015B7FF2BF9B12200ACB7E6 /* Proxima Nova Alt Bold-webfont.ttf in Resources */,
+				C015B8022BF9B12200ACB7E6 /* Assets.xcassets in Resources */,
+				C015B8042BF9B12200ACB7E6 /* Main.storyboard in Resources */,
+				C015B8032BF9B12200ACB7E6 /* LaunchScreen.storyboard in Resources */,
+				C015B8002BF9B12200ACB7E6 /* Proxima Nova Alt Regular-webfont.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		35C5EDE522749DE40036D6D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C015B8052BF9B12200ACB7E6 /* AppDelegate.swift in Sources */,
+				C015B7FE2BF9B12200ACB7E6 /* ViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C015B7F82BF9B12200ACB7E6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C015B7F92BF9B12200ACB7E6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		C015B7FA2BF9B12200ACB7E6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C015B7FB2BF9B12200ACB7E6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		35C5EDF922749DE50036D6D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		35C5EDFA22749DE50036D6D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		35C5EDFC22749DE50036D6D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FU4UV7K2X8;
+				INFOPLIST_FILE = "ImageGenerator-iOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sudeep.ImageGenerator-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		35C5EDFD22749DE50036D6D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FU4UV7K2X8;
+				INFOPLIST_FILE = "ImageGenerator-iOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sudeep.ImageGenerator-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		35C5EDE422749DE40036D6D6 /* Build configuration list for PBXProject "ImageGenerator-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35C5EDF922749DE50036D6D6 /* Debug */,
+				35C5EDFA22749DE50036D6D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		35C5EDFB22749DE50036D6D6 /* Build configuration list for PBXNativeTarget "ImageGenerator-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35C5EDFC22749DE50036D6D6 /* Debug */,
+				35C5EDFD22749DE50036D6D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 35C5EDE122749DE40036D6D6 /* Project object */;
+}

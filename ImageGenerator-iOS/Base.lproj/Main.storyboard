@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22155" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22131"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Proxima Nova Alt Bold-webfont.ttf">
+            <string>ProximaNovaA-Bold</string>
+        </array>
+        <array key="Proxima Nova Alt Regular-webfont.ttf">
+            <string>ProximaNovaA-Regular</string>
+        </array>
+        <array key="Proxima Nova Thin-webfont.ttf">
+            <string>ProximaNovaT-Thin</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="WordRolls" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="MOs-4j-Qqg"/>
+                        <viewControllerLayoutGuide type="bottom" id="PKZ-CU-8bg"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rdo-4Z-wqN">
+                                <rect key="frame" x="31" y="73" width="352" height="352"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="dunce" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.69999999999999996" translatesAutoresizingMaskIntoConstraints="NO" id="0JC-nd-oqf">
+                                        <rect key="frame" x="128.5" y="32" width="95.5" height="38.5"/>
+                                        <fontDescription key="fontDescription" name="ProximaNovaA-Bold" family="Proxima Nova Alt" pointSize="34"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="duhns" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.69999999999999996" translatesAutoresizingMaskIntoConstraints="NO" id="Umv-Af-YgJ">
+                                        <rect key="frame" x="148.5" y="78" width="55" height="25"/>
+                                        <fontDescription key="fontDescription" name="ProximaNovaT-Thin" family="Proxima Nova" pointSize="21"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="a dull-witted, stupid or ignorant person" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QMm-4I-did">
+                                        <rect key="frame" x="70.5" y="152.5" width="211.5" height="47"/>
+                                        <fontDescription key="fontDescription" name="ProximaNovaA-Regular" family="Proxima Nova Alt" pointSize="21"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="she knows about all kinds of dishes but is a total dunce about cooking" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="0.0" translatesAutoresizingMaskIntoConstraints="NO" id="wWe-wB-Y8f">
+                                        <rect key="frame" x="21" y="252.5" width="310.5" height="35.5"/>
+                                        <fontDescription key="fontDescription" name="ProximaNovaA-Regular" family="Proxima Nova Alt" pointSize="16"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="0JC-nd-oqf" firstAttribute="centerX" secondItem="rdo-4Z-wqN" secondAttribute="centerX" id="0zS-hH-62P"/>
+                                    <constraint firstItem="wWe-wB-Y8f" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="rdo-4Z-wqN" secondAttribute="leading" constant="15" id="8DE-fg-szk"/>
+                                    <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="QMm-4I-did" secondAttribute="trailing" constant="15" id="8gR-Sg-Dl4"/>
+                                    <constraint firstItem="Umv-Af-YgJ" firstAttribute="centerY" secondItem="rdo-4Z-wqN" secondAttribute="centerY" multiplier="0.514" id="Phd-oE-lc7"/>
+                                    <constraint firstItem="0JC-nd-oqf" firstAttribute="centerY" secondItem="rdo-4Z-wqN" secondAttribute="centerY" multiplier="0.29" id="SBT-Tq-X5B"/>
+                                    <constraint firstItem="wWe-wB-Y8f" firstAttribute="centerX" secondItem="0JC-nd-oqf" secondAttribute="centerX" id="UPb-ut-zAd"/>
+                                    <constraint firstItem="QMm-4I-did" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="rdo-4Z-wqN" secondAttribute="leading" constant="15" id="XMg-ok-EE5"/>
+                                    <constraint firstItem="wWe-wB-Y8f" firstAttribute="centerY" secondItem="rdo-4Z-wqN" secondAttribute="centerY" multiplier="1.535" id="d8a-v7-ljK"/>
+                                    <constraint firstItem="Umv-Af-YgJ" firstAttribute="centerX" secondItem="0JC-nd-oqf" secondAttribute="centerX" id="gAe-eP-8DQ"/>
+                                    <constraint firstAttribute="width" secondItem="rdo-4Z-wqN" secondAttribute="height" multiplier="1:1" id="gkq-Ms-bg3"/>
+                                    <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="0JC-nd-oqf" secondAttribute="trailing" constant="15" id="mA6-p0-pqL"/>
+                                    <constraint firstItem="QMm-4I-did" firstAttribute="centerY" secondItem="rdo-4Z-wqN" secondAttribute="centerY" id="qrb-WO-rlk"/>
+                                    <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="wWe-wB-Y8f" secondAttribute="trailing" constant="15" id="xuf-BB-flY"/>
+                                    <constraint firstItem="QMm-4I-did" firstAttribute="centerX" secondItem="0JC-nd-oqf" secondAttribute="centerX" id="yW4-kr-2Wo"/>
+                                    <constraint firstItem="0JC-nd-oqf" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="rdo-4Z-wqN" secondAttribute="leading" constant="15" id="zHk-vT-b9k"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="orC-wr-QvM">
+                                <rect key="frame" x="190" y="440" width="34" height="30"/>
+                                <state key="normal" title="Save"/>
+                                <connections>
+                                    <action selector="saveTappedWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zxf-gj-fW0"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="orC-wr-QvM" firstAttribute="centerX" secondItem="rdo-4Z-wqN" secondAttribute="centerX" id="Abq-Wi-VyK"/>
+                            <constraint firstItem="rdo-4Z-wqN" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Sfg-K7-G5w"/>
+                            <constraint firstItem="rdo-4Z-wqN" firstAttribute="top" secondItem="MOs-4j-Qqg" secondAttribute="bottom" constant="25" id="jgF-Qq-LPa"/>
+                            <constraint firstItem="rdo-4Z-wqN" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.85" id="l7t-dc-lkg"/>
+                            <constraint firstItem="orC-wr-QvM" firstAttribute="top" secondItem="rdo-4Z-wqN" secondAttribute="bottom" constant="15" id="s3M-l8-VV1"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="wordView" destination="rdo-4Z-wqN" id="noD-Hf-r46"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-51" y="-17"/>
+        </scene>
+    </scenes>
+</document>
